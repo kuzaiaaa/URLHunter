@@ -1,15 +1,25 @@
 # URL Hunter - Burp Suite URL安全检测扩展
+
+## 前言
 本项目纯AI（CURSOR Claude-4） 打造，自己一行代码也没有写. 特别感谢@qiqing @Jrd 对项目的支持和建议。
+
 写这个项目的初衷其实是想感受一下现在cursor 的能力，在今年二月份的时候cursor 连一个bcheck 的规则都写不出来（村规支持太差），现在居然能完整写一个Burp插件，从UI ，数据管理，和Burp的联动 初步测试下来没有任何问题。不得不感慨AI的进化速度惊人，带来的便利。
-本质上这个项目是造了一个轮子，后续计划加入很多个性化的需求，根据自己的用户习惯来继续定制。
+
+本质上这个项目是造了一个轮子，后续计划加入很多个性化的需求，根据自己的用户习惯来继续定制, 没有进行深度测试（应该有BUG），简单测试下来的bug都让AI修复了。
+
 本项目耗时4天，项目雏形搭建1天，改功能1天，改Bug2天。 
-收获和经验来说，主要有两点，一个是在给AI 提需求的时候一定要清晰，最好是配图，一个一个功能来做，更容易做到自己想要的功能。对于改BUG来说，一次改不好，要多改几次，帮助AI 深度分析问题所在。当然给AI提供合适的文档链接是必要的，比如要给示例github ，官方文档，api文档，和其他项目作为参考。
+
+收获和经验来说，主要有两点，一个是在给AI 提需求的时候一定要清晰，最好是配图，一个一个功能来做，更容易做到自己想要的功能。
+对于改BUG来说，一次改不好，要多改几次，帮助AI 深度分析问题所在。
+当然给AI提供合适的文档链接是必要的，比如要给示例github ，官方文档，api文档，和其他项目作为参考。
+
 参考项目：https://github.com/bit4woo/domain_hunter_pro （我也参与了很多功能的设计）
 官方文档：
 https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating
 https://github.com/PortSwigger/burp-extensions-montoya-api-examples
 https://portswigger.net/burp/extender/api/
 
+除了前言是我自己写的，其他都是AI生成。
 ## 项目简介
 
 URL Hunter 是一款专为Burp Suite设计的URL收集和管理扩展，帮助安全测试人员高效地收集、筛选和管理测试目标的URL资源。
