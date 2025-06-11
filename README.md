@@ -13,7 +13,7 @@
 对于改BUG来说，一次改不好，要多改几次，帮助AI 深度分析问题所在。
 当然给AI提供合适的文档链接是必要的，比如要给示例github ，官方文档，api文档，和其他项目作为参考。
 
-参考项目：https://github.com/bit4woo/domain_hunter_pro （我也参与了很多功能的设计）
+参考项目：https://github.com/bit4woo/domain_hunter_pro
 官方文档：
 https://portswigger.net/burp/documentation/desktop/extend-burp/extensions/creating
 https://github.com/PortSwigger/burp-extensions-montoya-api-examples
